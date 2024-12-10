@@ -5,6 +5,9 @@
 @section('content')
     <h1>Product Management</h1>
 
+    <!-- Go Back Button -->
+    <a href="{{ route('index') }}" class="btn btn-secondary mb-3">Go Back to Home</a>
+
     <!-- Form for Adding Products -->
     <form method="POST" id="productForm" enctype="multipart/form-data">
         @csrf

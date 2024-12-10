@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PageController;
 use App\Http\Controllers\BrandController;
 use App\Http\Controllers\ProductController;
 
@@ -14,6 +15,8 @@ use App\Http\Controllers\ProductController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+Route::get('/', [PageController::class, 'index'])->name('index');
 
 
 Route::get('/brands', [BrandController::class, 'index'])->name('brands.index');

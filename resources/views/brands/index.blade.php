@@ -5,6 +5,9 @@
 @section('content')
     <h1>Brand Management</h1>
 
+    <!-- Go Back Button -->
+    <a href="{{ route('index') }}" class="btn btn-secondary mb-3">Go Back to Home</a>
+
     <form id="brandForm">
         <div class="mb-3">
             <label for="brand_name" class="form-label">Brand Name</label>
