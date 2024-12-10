@@ -53,8 +53,8 @@ It demonstrates adherence to **MVC architecture** and employs **AJAX** for seaml
 
 ### 1. Clone the Repository
 ```bash
-git clone [repository_link]
-cd ProductDatabase
+git clone https://github.com/shaloofarif/Product_Database_Redcherry.git
+cd Product_Database_Redcherry
 ```
 
 ### 2. Install Dependencies
@@ -103,6 +103,7 @@ php artisan serve
 ```
 
 ### 9. Access the Application
+Visit `http://localhost:8000/brands` in your browser.
 Visit `http://localhost:8000/products` in your browser.
 
 ---
